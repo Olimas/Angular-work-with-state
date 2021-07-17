@@ -1,0 +1,25 @@
+.container {
+  margin: 100px auto;
+}
+.components-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+
+}
+.components-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  border: 1px solid #000000;
+  padding: 30px;
+  margin: 0 30px 30px 30px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
